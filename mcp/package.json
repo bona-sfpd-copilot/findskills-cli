@@ -1,0 +1,36 @@
+{
+  "name": "findskills-mcp",
+  "version": "0.1.3",
+  "description": "MCP Server for FindSkills — search and discover 30,000+ AI Agent Skills",
+  "type": "module",
+  "bin": {
+    "findskills-mcp": "./bin.js"
+  },
+  "files": [
+    "bin.js",
+    "server.js",
+    "api.js"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "agent",
+    "skills",
+    "findskills",
+    "model-context-protocol"
+  ],
+  "license": "MIT",
+  "homepage": "https://findskills.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shintemy/findskills-cli.git",
+    "directory": "mcp"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.0",
+    "zod": "^3.24.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "findskills",
+  "version": "0.1.1",
+  "description": "Search 30,000+ AI agent skills from the terminal",
+  "type": "module",
+  "bin": {
+    "findskills": "./bin.js"
+  },
+  "files": [
+    "bin.js"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "skills",
+    "mcp",
+    "findskills",
+    "cli",
+    "search"
+  ],
+  "license": "MIT",
+  "homepage": "https://findskills.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shintemy/findskills-cli.git",
+    "directory": "cli"
+  }
+}
